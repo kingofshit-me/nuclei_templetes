@@ -17,23 +17,8 @@ info:
     max-request: 3
   tags: imo,rce
 
-flow: http(1) && http(2)
 
 http:
-  - raw:
-      - |
-        GET / HTTP/1.1
-        Host: {{Hostname}}
-
-    host-redirects: true
-    max-redirects: 2
-    matchers:
-      - type: word
-        part: body
-        words:
-          - 'imo'
-        case-insensitive: true
-        internal: true
 
   - raw:
       - |
