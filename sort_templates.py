@@ -14,7 +14,7 @@ EXCLUDE_KEYWORDS = [
     'wordpress', 'wp-', 'joomla', 'drupal', 'magento', 'prestashop',
     'squarespace', 'wix', 'weebly', 'shopify', 'commerce', 'weaver',
     'jolokia', 'landray', 'lucee', 'malwared', 'opennms', 'opencpu', 'openstack', 'slack',
-    'aem-crx', 'avaya', 'chanjet', 'cerio', 'chamilo', 'citrix', 'commax',
+    'aem-crx', 'avaya', 'chanjet', 'cerio', 'chamilo', 'citrix', 'commax','osTicket','CrushFTP','ProjectSend','Moodle'
     
     # 云服务提供商
     'aws', 'amazon-web-services', 'azure', 'google-cloud', 'gcp', 
