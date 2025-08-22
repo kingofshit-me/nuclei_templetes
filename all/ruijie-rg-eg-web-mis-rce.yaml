@@ -13,7 +13,7 @@ info:
     max-request: 2
     fofa-query: body="请输入您的RG-EG易网关的用户名和密码"
   tags: ruijie,router,iot,rce
-flow: http(1) && http(2)
+flow: http(2)
 
 http:
   - method: GET

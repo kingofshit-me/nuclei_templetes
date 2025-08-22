@@ -16,7 +16,7 @@ info:
     vendor: apollotheme
   tags: intrusive,file-upload,cartabandonmentpro,prestashop
 
-flow: http(1) && http(2)
+flow: http(1)
 
 variables:
   filename: '{{rand_base(7, "abc")}}'

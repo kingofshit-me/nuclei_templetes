@@ -17,7 +17,7 @@ info:
   metadata:
     max-request: 2
   tags: cnvd,cnvd2019,rce,catfishcms
-flow: http(1) && http(2)
+flow: http(2) #http(1) && http(2)
 
 http:
   - method: GET

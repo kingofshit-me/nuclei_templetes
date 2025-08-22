@@ -22,7 +22,7 @@ variables:
   badsecretkey: 'ThisIsAlmostCertainlyNotIt'
   uri_part: '_fragment?_path=what%3D-1%26_controller%3Dphpinfo'
 
-flow: http(1) && http(2)
+flow: http(1) ; http(2)
 
 http:
   - method: GET

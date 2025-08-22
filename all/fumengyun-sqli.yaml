@@ -24,7 +24,7 @@ info:
     fofa-query: title="孚盟云 "
   tags: time-based-sqli,fumasoft,sqli
 
-flow: http(1) && http(2)
+flow: http(2)
 
 http:
   - raw:

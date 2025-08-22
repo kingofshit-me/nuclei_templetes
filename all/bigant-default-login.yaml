@@ -20,12 +20,10 @@ info:
 variables:
   username: "superadmin"
   password: "123456"
+  hash: "{{randstr}}"
 
 http:
   - raw:
-      - |
-        GET /index.php/Home/login/index.html HTTP/1.1
-        Host: {{Hostname}}
 
       - |
         POST /index.php/Home/Login/login_post.html HTTP/1.1
@@ -49,12 +47,5 @@ http:
         status:
           - 200
 
-    extractors:
-      - type: regex
-        part: body
-        name: hash
-        group: 1
-        regex:
-          - 'name="__hash__" content="([0-9a-z_]+)"'
-        internal: true
+
 # digest: 4b0a00483046022100a00fbaffd63d9fae9c46abbfac8fa9959483cda2c2ac6616984b6eceb6e37ae80221009043491857bbefe19003da32be3a048e90d24f2b23a97f981bca7b717e6914be:922c64590222798bb761d5b6d8e72950

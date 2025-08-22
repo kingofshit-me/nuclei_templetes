@@ -17,6 +17,8 @@ info:
   metadata:
     max-request: 2
   tags: cnvd,cnvd2022,sunflower,rce
+variables:
+  cid: "{{randstr}}"
 
 http:
   - raw:

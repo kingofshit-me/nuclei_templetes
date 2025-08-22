@@ -37,7 +37,7 @@ http:
           "logId": 1,
           "logDateTime": 1586629003729,
           "glueType": "GLUE_SHELL",
-          "glueSource": "ping {{interactsh-url}}",
+          "glueSource": "ping interactsh-url.com",
           "glueUpdatetime": 1586699003758,
           "broadcastIndex": 0,
           "broadcastTotal": 0
@@ -58,7 +58,7 @@ http:
           "logId": 1,
           "logDateTime": 1586629003729,
           "glueType": "GLUE_POWERSHELL",
-          "glueSource": "ping {{interactsh-url}}",
+          "glueSource": "ping interactsh-url.com",
           "glueUpdatetime": 1586699003758,
           "broadcastIndex": 0,
           "broadcastTotal": 0
